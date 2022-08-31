@@ -1,0 +1,3 @@
+# Air Force 1 Webscraper
+#### Video Demo:  <https://www.youtube.com/watch?v=RAmoCeCy8z4>
+#### Description: When the user runs the application, they will be notified via email whenever the price of the shoes drop below £109.95. This check will happen every 10 minutes. Using beautifulsoup from the bs4 library I was able to get the html element that contained the price of the product and from that i was able to write functions to carry out the email using the smtplib for google.
