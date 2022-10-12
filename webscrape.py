@@ -1,3 +1,4 @@
+import requests
 from bs4 import BeautifulSoup
 import smtplib
 import time
@@ -29,7 +30,7 @@ def send_email():
     server.starttls()
     server.ehlo()
     # logging in
-    server.login('tobithomas99@gmail.com', 'ptnpjylhubojsfxb')
+    server.login('email', 'password')
     # declaring the subject, body and message
     subject = "Price decrease!"
     body = "Click the link: https://www.nike.com/gb/t/air-force-1-07-shoes-DMJP7P/CW2288-111"
